@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
     <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -56,7 +57,7 @@
             <h2>Google en Perú</h2>
             <form id="signup-form">
                 <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email" required>
+                    <input type="email" id="signup-email" class="form-control" placeholder="Email" required>
                 </div>
                 <div class="form-group">
                     <input type="password" id="signup-password" class="form-control" placeholder="Password" required>
@@ -286,7 +287,8 @@
     <footer class="footer">
         <h3>Tech News Copyright</h3>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="main.js"></script>
+    <script src="main.js" type="module"></script>
 </body>
 </html>
